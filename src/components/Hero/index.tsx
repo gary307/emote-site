@@ -7,7 +7,7 @@ const Hero = () => {
       <section className={styles.wrapper}>
         <div className={styles.vinette}></div>
         <div className={styles.aboutContent}>
-          <img src="./logo.png" className={styles.logo} />
+          <img src="/logo.png" className={styles.logo} />
           <p className={styles.aboutCopy}>
             Combining creativity and cutting edge technology, we develop and
             produce effective content that will captivate and move your
