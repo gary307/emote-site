@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap'); */
+
+.wrapper {
+    background-image: url('/bg-hero-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.vinette {
+    position:absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+}
+
+.aboutContent {
+    color: white;
+    width: 40%;
+    margin-left: 100px;
+    z-index: 99999;
+    font-family: 'Open Sans', sans-serif;
+
+    @media (max-width: 600px) {
+        width: 80%;
+    }
+}
+
+.aboutCopy {
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 350px;
+    /* position: sticky; */
+    top: 0px;
+}

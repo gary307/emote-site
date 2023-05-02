@@ -1,0 +1,207 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap'); */
+
+.wrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    padding-top: 160px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.vinette {
+    position:absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.galleryContent {
+    display: grid;
+    gap: 10px;
+
+    padding: 2px;
+
+    
+
+  grid-template-areas: "a a b b b b"
+                       "a a d d c c"           
+                       "a a d d e e"
+                       "g g d d e e"
+                       "f f f f e e";
+
+
+
+  grid-template-rows: 170px 120px 160px 140px 170px;
+   
+}
+
+.galleryImageOne {
+    grid-area: a;
+    max-width: 100%;
+    /* width: 30%; */
+    /* background: url("/video-menu-images/1.jpg"); */
+    background-size: contain;
+}
+
+.galleryImageTwo {
+    grid-area: b;
+    max-width: 100%;
+    /* background: url("/video-menu-images/6.jpg"); */
+    background-size: contain;
+    height:200px;
+}
+
+.galleryImageThree {
+    grid-area: c;
+    max-width: 100%;
+}
+
+.galleryImageFour {
+    grid-area: d;
+    max-width: 100%;
+    /* background: image('/video-menu-images/8.jpg'); */
+    background-image: url('/video-menu-images/8.jpg');
+
+    background-size: cover;
+}
+
+.galleryImageFive {
+    grid-area: g;
+    max-width: 100%;
+}
+
+
+.galleryImageSix {
+    grid-area: e;
+    max-width: 100%;
+}
+
+
+.galleryImageSeven {
+    grid-area: f;
+    max-width: 100%;
+}
+
+
+.aboutCopy {
+    font-size: 18px;
+    line-height: 36px;
+
+}
+
+.logo {
+    width: 350px;
+    /* position: sticky; */
+    top: 0px;
+}
+
+.sliderOne {
+    border: 4px solid black;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    background: black;
+}
+
+.sliderTwo {
+    border: 4px solid black;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: black;
+    margin-top:20px;
+}
+
+.sliderThree {
+    border: 4px solid black;
+    width: 150px;
+    height: 250px;
+    overflow: hidden;
+    background: black;
+    margin-left:-20px;
+    margin-top: -20px;
+}
+
+.smallerSlides {
+    display: flex;
+    margin-left: 100px;
+}
+
+
+.sliderOneBody {
+    display: flex;
+}
+
+.sliderOne.img {
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.sliderOneImage  {
+    max-width: 100%;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.sliderTwoImage  {
+    max-width: 100%;
+    width: 200px;
+    margin-right: 100px;
+}
+
+.sliderThreeImage  {
+    max-width: 100%;
+    width: 150px;
+    margin-right: 100px;
+}
+
+.galleryImage {
+    max-width: 100%;;
+}
+
+.galleryontent {
+    display: grid;
+}
+
+.galleryContentTwo {
+    display: grid;
+    grid-template-areas: 'a b b'
+                         'a c d'
+                         'a c d' 
+                         'e e d';
+
+                         gap: 10px;
+}
+
+.galleryAreaOne {
+     grid-area: a;
+     background: red;
+}
+
+.galleryAreaTwo {
+    grid-area: b;
+    background: red;
+}
+
+.galleryAreaThree {
+    grid-area: c;
+    background: red;
+}
+
+.galleryAreaFour {
+    grid-area: d;
+    background: red;
+}
+
+.galleryAreaFive {
+    grid-area: e;
+    background: red;
+}

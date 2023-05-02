@@ -1,0 +1,33 @@
+.wrapper {
+    position: fixed;
+    /* top: 20px; */
+    width: 100%;
+    padding: 30px;
+    z-index: 999999;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid white;
+    background: rgba(0,0,0,0.5);
+
+}
+
+.logoWrapper {
+    height: 0px;
+}
+
+.logo {
+    width: 300px;
+    top: 20px;
+    margin-top: 20px;
+    position: absolute;
+    position: sticky;
+    z-index: 99999;
+}
+
+.nav {
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+}
+
