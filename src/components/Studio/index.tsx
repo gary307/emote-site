@@ -34,19 +34,19 @@ const Studio = () => {
               >
                 <img
                   className={styles.sliderOneImage}
-                  src="/bg-hero-image.jpg"
+                  src="/gallery/image1.jpg"
                 />
                 <img
                   className={styles.sliderOneImage}
-                  src="/bg-hero-image.jpg"
+                  src="/gallery/image1.jpg"
                 />
                 <img
                   className={styles.sliderOneImage}
-                  src="/bg-hero-image.jpg"
+                  src="/gallery/image1.jpg"
                 />
                 <img
                   className={styles.sliderOneImage}
-                  src="/bg-hero-image.jpg"
+                  src="/gallery/image1.jpg"
                 />
               </div>
             </div>
@@ -63,19 +63,19 @@ const Studio = () => {
                 >
                   <img
                     className={styles.sliderTwoImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image2.jpg"
                   />
                   <img
                     className={styles.sliderTwoImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image2.jpg"
                   />
                   <img
                     className={styles.sliderTwoImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image2.jpg"
                   />
                   <img
                     className={styles.sliderTwoImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image2.jpg"
                   />
                 </div>
               </div>
@@ -91,19 +91,19 @@ const Studio = () => {
                 >
                   <img
                     className={styles.sliderThreeImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image3.jpg"
                   />
                   <img
                     className={styles.sliderThreeImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image3.jpg"
                   />
                   <img
                     className={styles.sliderThreeImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image3.jpg"
                   />
                   <img
                     className={styles.sliderThreeImage}
-                    src="/bg-hero-image.jpg"
+                    src="/gallery/image3.jpg"
                   />
                 </div>
               </div>

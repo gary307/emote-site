@@ -61,16 +61,18 @@
 .sliderTwo {
     border: 4px solid black;
     width: 200px;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     background: black;
     margin-top:20px;
+    z-index: 99999;
+
 }
 
 .sliderThree {
     border: 4px solid black;
     width: 150px;
-    height: 250px;
+    height: 200px;
     overflow: hidden;
     background: black;
     margin-left:-20px;
@@ -87,26 +89,28 @@
     display: flex;
 }
 
-.sliderOne.img {
+/* .sliderOne.img {
     max-width: 100%;
     width: 100%;
-
-}
+} */
 
 .sliderOneImage  {
     max-width: 100%;
     width: 400px;
+    height: 250px;
     margin-right: 100px;
 }
 
 .sliderTwoImage  {
     max-width: 100%;
     width: 200px;
+    height: 150px;
     margin-right: 100px;
 }
 
 .sliderThreeImage  {
     max-width: 100%;
     width: 150px;
+    height: 200px;
     margin-right: 100px;
 }
