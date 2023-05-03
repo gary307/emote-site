@@ -9,13 +9,13 @@ const Studio = () => {
 
   const slideLength = 3;
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const newIndex = currentSlide + 1;
-      setCurrentSlide((prev) => (prev !== slideLength - 1 ? prev + 1 : 0));
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     const newIndex = currentSlide + 1;
+  //     setCurrentSlide((prev) => (prev !== slideLength - 1 ? prev + 1 : 0));
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <>
@@ -110,12 +110,16 @@ const Studio = () => {
             </div>
           </div>
 
-          <p className={styles.aboutCopy}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut
-            nunc sem. In sed lacus eget velit elementum posuere ut et arcu.
-            Aliquam erat volutpat. Praesent egestas justo in arcu sagittis
-            consectetur.
-          </p>
+          <div className={styles.studioCopy}>
+            <h2>Playing with tech</h2>
+            <br />
+            <p>
+              Our in-house, state of the art volume technology, allows us to
+              create and expand entire worlds. We also have full motion capture
+              facilities, performers, coders and UE artists. If you can imagine
+              it, we can make it a reality.
+            </p>
+          </div>
         </div>
       </section>
     </>

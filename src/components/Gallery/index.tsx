@@ -28,7 +28,21 @@ const Gallery = () => {
             />
           </div>
 
-          <div className={styles.galleryImageFour}></div>
+          <div className={styles.galleryImageFour}>
+            <div className={styles.galleryCopy}>
+              <div className={styles.contentImageContainer}>
+                {/* <img
+                  className={styles.contentImage}
+                  src="/video-menu-images/7.png"
+                /> */}
+              </div>
+              {/* <div>
+                Advertainment We are multidisciplinary, working across
+                entertainment and branded content. Take a look at some of our
+                latest movies and brand films.
+              </div> */}
+            </div>
+          </div>
 
           <div className={styles.galleryImageFive}>
             <img

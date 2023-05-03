@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap'); */
 
 .wrapper {
     background-position: center;
@@ -90,10 +89,22 @@
 }
 
 
-.aboutCopy {
-    font-size: 18px;
-    line-height: 36px;
+.galleryCopy {
+    display: flex;
+}
 
+.content {
+    width: 50%;
+}
+
+.contentImage {
+    width: 100px;
+}
+
+
+
+.contentImageContainer {
+    width: 50%;
 }
 
 .logo {

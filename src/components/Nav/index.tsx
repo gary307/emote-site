@@ -5,7 +5,7 @@ const Nav = () => {
     <>
       <div className={styles.wrapper}>
         <div className={styles.logoWrapper}>
-          {/* <img src="./logo.png" className={styles.logo} /> */}
+          <img src="./logo.png" className={styles.logo} />
         </div>
         <nav className={styles.nav}>
           <a>About</a>

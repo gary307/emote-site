@@ -24,21 +24,18 @@
     width: 40%;
     margin-left: 100px;
     z-index: 99999;
-    font-family: 'Open Sans', sans-serif;
 
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         width: 80%;
+        margin: 0 auto;
     }
 }
 
 .aboutCopy {
-    font-size: 18px;
-    line-height: 36px;
     margin-top: 20px;
 }
 
 .logo {
     width: 350px;
-    /* position: sticky; */
     top: 0px;
 }
